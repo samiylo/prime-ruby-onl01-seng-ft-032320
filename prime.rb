@@ -6,7 +6,8 @@ def prime?(int)
       int % n == 0
     end
     result.length > 2 ? false : true
-  end
+    
   else
-    return false
+    return false 
+  end
 end
