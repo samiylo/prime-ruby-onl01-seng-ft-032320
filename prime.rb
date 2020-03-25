@@ -1,4 +1,6 @@
 # Add  code here!
 
 def prime?(int)
-  (int % 2)
+  int % 2 == 0 ? false : true
+  
+end
