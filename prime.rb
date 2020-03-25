@@ -1,7 +1,10 @@
 # Add  code here!
 
 def prime?(int)
-  (1..int).select do |n|
+  result = (1..int).select do |n|
     int % n == 0
+  end
+  
+  result.length > 2 ? false : true
   
 end
